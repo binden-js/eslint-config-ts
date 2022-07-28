@@ -28,6 +28,9 @@ jobs:
       - name: Publish
         run: npm publish --dry-run
 
+      - name: ESLint
+        run: npm run eslint
+
   release:
     needs: [test]
 
