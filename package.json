@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-binden-ts",
+  "version": "1.0.0",
+  "description": "Shareable TypeScript ESLint config",
+  "main": ".eslintrc.json",
+  "type": "commonjs",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=18.7.0",
+    "npm": ">=8.15.0"
+  },
+  "scripts": {
+    "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
+    "eslint": "eslint --parser-options project:tsconfig.json --ext .ts ./",
+    "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
+    "prepare": "husky install",
+    "prettier": "prettier -c .",
+    "prettier:write": "prettier -c -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binden-js/eslint-config-ts.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript",
+    "binden"
+  ],
+  "author": "Sergey Bakulin <sergey.bakulin.github@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binden-js/eslint-config-ts/issues"
+  },
+  "homepage": "https://github.com/binden-js/eslint-config-ts#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint-config-binden-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@binden/commitlint-config": "^1.0.0",
+    "@binden/semantic-release-config": "^1.0.0",
+    "@binden/tsconfig": "^1.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "funding": {
+    "type": "Coinbase Commerce",
+    "url": "https://commerce.coinbase.com/checkout/eddfb0f7-20e7-4e0d-8e04-232bbdf0b397"
+  }
+}
