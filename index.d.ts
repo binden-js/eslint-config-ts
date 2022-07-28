@@ -1,3 +1,4 @@
+/* eslint-disable-next-line no-underscore-dangle, init-declarations */
 declare const _default: {
   extends: [
     "binden-js",
