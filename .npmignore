@@ -13,5 +13,8 @@
 # semantic-release config - https://github.com/semantic-release/semantic-release
 .releaserc.json
 
+# TypeScript config - https://www.typescriptlang.org/
+tsconfig.json
+
 # Code of Conduct
 CODE_OF_CONDUCT.md
