@@ -12,7 +12,8 @@
   "scripts": {
     "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
     "eslint": "eslint --parser-options project:tsconfig.json --ext .ts ./",
-    "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
+    "install:clean": "npm install",
+    "preinstall:clean": "rm -rf node_modules package-lock.json",
     "prepare": "husky install",
     "prettier": "prettier -c .",
     "prettier:write": "prettier -c -w ."
@@ -34,8 +35,8 @@
   },
   "homepage": "https://github.com/binden-js/eslint-config-ts#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
     "eslint-config-binden-js": "^1.0.1"
   },
   "devDependencies": {
