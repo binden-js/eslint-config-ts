@@ -40,7 +40,7 @@
     "eslint-config-binden-js": "^1.0.1"
   },
   "devDependencies": {
-    "@binden/commitlint-config": "^1.0.0",
+    "@binden/commitlint-config": "^1.0.1",
     "@binden/semantic-release-config": "^1.1.0",
     "@binden/tsconfig": "^1.0.0",
     "husky": "^8.0.1",
