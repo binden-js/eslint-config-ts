@@ -44,7 +44,7 @@
     "@binden/semantic-release-config": "^1.1.1",
     "@binden/tsconfig": "^1.0.1",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^13.1.0",
     "prettier": "^2.7.1"
   },
   "funding": {
