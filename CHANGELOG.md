@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/binden-js/eslint-config-ts/compare/v1.0.2...v2.0.0) (2023-07-12)
+
+### ⚠ BREAKING CHANGES
+
+- remove redundant rules
+
+### Dependencies
+
+- bump binden/tsconfig from 1.0.1 to 1.0.2 ([6b40790](https://github.com/binden-js/eslint-config-ts/commit/6b4079067b3b06766abd9e5c35ba135649202afe))
+- bump eslint-config-binden-js from 1.0.2 to 1.0.3 ([765535d](https://github.com/binden-js/eslint-config-ts/commit/765535dc9559a9a5272a596fb18e0870ec3f403c))
+- bump typescript-eslin from 5.36.1 to 6.0.0 ([4da8a0b](https://github.com/binden-js/eslint-config-ts/commit/4da8a0be772da2a4ace4a2e9db835ecedf602fd2))
+
+### Code Refactoring
+
+- remove redundant rules ([64950ac](https://github.com/binden-js/eslint-config-ts/commit/64950ac57969fc2bad94d1d2b2b2dfd9b8013f0c))
+
 ## [1.0.2](https://github.com/binden-js/eslint-config-ts/compare/v1.0.1...v1.0.2) (2022-09-05)
 
 ### Dependencies
