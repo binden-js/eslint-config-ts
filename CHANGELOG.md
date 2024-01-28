@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.0.0](https://github.com/binden-js/eslint-config-ts/compare/v2.0.0...v3.0.0) (2024-01-28)
+
+### ⚠ BREAKING CHANGES
+
+- drop Node `<20` support
+
+### Performance Improvements
+
+- drop Node `<20` support ([f6c2aa9](https://github.com/binden-js/eslint-config-ts/commit/f6c2aa95e802353d8557e1d9ebcd8d42a189750f))
+
 ## [2.0.0](https://github.com/binden-js/eslint-config-ts/compare/v1.0.2...v2.0.0) (2023-07-12)
 
 ### ⚠ BREAKING CHANGES
