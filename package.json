@@ -14,7 +14,7 @@
     "eslint": "eslint --parser-options project:tsconfig.json --ext .ts ./",
     "install:clean": "npm install",
     "preinstall:clean": "rm -rf node_modules package-lock.json",
-    "prepare": "husky install",
+    "prepare": "husky",
     "prettier": "prettier -c .",
     "prettier:write": "prettier -c -w ."
   },
