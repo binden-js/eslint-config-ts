@@ -2,8 +2,8 @@
   "name": "eslint-config-binden-ts",
   "version": "3.0.0",
   "description": "Shareable TypeScript ESLint config",
-  "main": ".eslintrc.json",
-  "type": "commonjs",
+  "main": "eslint.config.js",
+  "type": "module",
   "types": "index.d.ts",
   "engines": {
     "node": ">=20.11.0",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
-    "eslint": "eslint --parser-options project:tsconfig.json --ext .ts ./",
+    "eslint": "eslint --parser-options project:tsconfig.json **/*.ts",
     "install:clean": "npm install",
     "preinstall:clean": "rm -rf node_modules package-lock.json",
     "prepare": "husky",
