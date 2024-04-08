@@ -35,8 +35,8 @@
   },
   "homepage": "https://github.com/binden-js/eslint-config-ts#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.19.1",
-    "@typescript-eslint/parser": "^6.19.1",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
     "eslint-config-binden-js": "^1.0.4"
   },
   "devDependencies": {
