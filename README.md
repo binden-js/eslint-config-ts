@@ -10,8 +10,13 @@ npm i --save-dev eslint-config-binden-ts
 
 ## Usage
 
-- Add the `extends` property (in the `.eslintrc.json` file)
+- Add a path to your `tsconfig.json` file
 
-```json
-{ "extends": "binden-ts" }
+```js
+// eslint.config.js
+import config from "eslint-config-binden-ts";
+export default [
+  ...config,
+  { languageOptions: { parserOptions: { project: "tsconfig.json" } } },
+];
 ```
