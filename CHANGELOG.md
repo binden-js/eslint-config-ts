@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.0.0](https://github.com/binden-js/eslint-config-ts/compare/v3.0.0...v4.0.0) (2024-04-08)
+
+### ⚠ BREAKING CHANGES
+
+- use the flat configs
+
+### Features
+
+- use the flat configs ([255fd66](https://github.com/binden-js/eslint-config-ts/commit/255fd66fb736d3baa19457618d84c566cb50e51d))
+
+### Performance Improvements
+
+- bump minimum supported Node.js version to v20.12.1 ([485e1d2](https://github.com/binden-js/eslint-config-ts/commit/485e1d2eb5093971092ffac445a7f9b803170dc8))
+
+### Dependencies
+
+- add `typescript-eslint` ([259b84a](https://github.com/binden-js/eslint-config-ts/commit/259b84a700fd624ec634327fc4370ca0c1b40015))
+- bump `eslint-config-binden-js` from `v1.0.4` to `v3.0.0` ([abbde74](https://github.com/binden-js/eslint-config-ts/commit/abbde74880ea2b005de7b639c35b3919bdeef6b7))
+- bump `typescript-eslint` from `v6.19.1` to `v7.6.0` ([6ccc549](https://github.com/binden-js/eslint-config-ts/commit/6ccc549a12c4692e6152b9cba86232383b09e73e))
+
 ## [3.0.0](https://github.com/binden-js/eslint-config-ts/compare/v2.0.0...v3.0.0) (2024-01-28)
 
 ### ⚠ BREAKING CHANGES
