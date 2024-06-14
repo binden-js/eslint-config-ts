@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.2](https://github.com/binden-js/eslint-config-ts/compare/v4.0.1...v4.0.2) (2024-06-14)
+
+### Dependencies
+
+- bump typescript-eslint from 7.11.0 to 7.13.0 ([e963602](https://github.com/binden-js/eslint-config-ts/commit/e963602ed7c7795fcca1292936704816023a8671))
+
 ## [4.0.1](https://github.com/binden-js/eslint-config-ts/compare/v4.0.0...v4.0.1) (2024-05-29)
 
 ### Dependencies
