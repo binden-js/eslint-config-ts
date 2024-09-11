@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.3](https://github.com/binden-js/eslint-config-ts/compare/v4.0.2...v4.0.3) (2024-09-11)
+
+### Bug Fixes
+
+- use the `no-throw-literal` rule ([cee8438](https://github.com/binden-js/eslint-config-ts/commit/cee84385d4131346698133d2ae2af5763fcf3166))
+
+### Dependencies
+
+- bump eslint-config-binden-js from 3.0.0 to 4.0.0 ([1a47f2e](https://github.com/binden-js/eslint-config-ts/commit/1a47f2e8c5a14c2af14794e81a102bba49787edb))
+- bump typescript-eslint from 7.13.0 to 8.5.0 ([72431d6](https://github.com/binden-js/eslint-config-ts/commit/72431d6cef131c876cc4daad9ca7edeed9d41f33))
+
 ## [4.0.2](https://github.com/binden-js/eslint-config-ts/compare/v4.0.1...v4.0.2) (2024-06-14)
 
 ### Dependencies
