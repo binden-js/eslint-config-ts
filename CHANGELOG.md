@@ -1,5 +1,28 @@
 # Changelog
 
+## [5.0.0](https://github.com/binden-js/eslint-config-ts/compare/v4.0.5...v5.0.0) (2024-12-07)
+
+### ⚠ BREAKING CHANGES
+
+- add the `@typescript-eslint/no-empty-object-type` rule
+- disable the `@typescript-eslint/unified-signatures` rule
+- change the default method signature style to `method`
+- drop `Node.js<22` support
+
+### Performance Improvements
+
+- add the `@typescript-eslint/no-empty-object-type` rule ([14d6c80](https://github.com/binden-js/eslint-config-ts/commit/14d6c80fc5d5e86ccb88d1c14096d122fc9b2652))
+- disable the `@typescript-eslint/unified-signatures` rule ([f375837](https://github.com/binden-js/eslint-config-ts/commit/f375837cca22ec5c1d8b2fceb6b6b4fa01d6cad3))
+- drop `Node.js<22` support ([ba7258e](https://github.com/binden-js/eslint-config-ts/commit/ba7258ea265e815e26d8da93b326f507236adc00))
+
+### Dependencies
+
+- bump `eslint-config-binden-js` to `v5.0.0` ([edc5a25](https://github.com/binden-js/eslint-config-ts/commit/edc5a25b2e915618c6a4bd9e993a45c7aff2852e))
+
+### Miscellaneous Chores
+
+- change the default method signature style to `method` ([b4ad666](https://github.com/binden-js/eslint-config-ts/commit/b4ad6667a5a9bbb0a522a1bf5e0400ed91956f5d))
+
 ## [4.0.5](https://github.com/binden-js/eslint-config-ts/compare/v4.0.4...v4.0.5) (2024-12-07)
 
 ### Dependencies
