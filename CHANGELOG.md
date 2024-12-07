@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.5](https://github.com/binden-js/eslint-config-ts/compare/v4.0.4...v4.0.5) (2024-12-07)
+
+### Dependencies
+
+- bump typescript-eslint from 8.5.0 to 8.17.0 ([ef8dd6f](https://github.com/binden-js/eslint-config-ts/commit/ef8dd6f0b9e53b809efbf173b5cfafbc98d9d34e))
+
 ## [4.0.4](https://github.com/binden-js/eslint-config-ts/compare/v4.0.3...v4.0.4) (2024-12-07)
 
 ### Dependencies
