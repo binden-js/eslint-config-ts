@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.4](https://github.com/binden-js/eslint-config-ts/compare/v4.0.3...v4.0.4) (2024-12-07)
+
+### Dependencies
+
+- bump eslint-config-binden-js from 4.0.0 to 4.0.1 ([611107c](https://github.com/binden-js/eslint-config-ts/commit/611107cb67dcc00e66992d98a6596fb983670362))
+
 ## [4.0.3](https://github.com/binden-js/eslint-config-ts/compare/v4.0.2...v4.0.3) (2024-09-11)
 
 ### Bug Fixes
