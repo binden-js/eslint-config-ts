@@ -64,7 +64,10 @@ export default [
       "@typescript-eslint/switch-exhaustiveness-check": "error",
       "@typescript-eslint/type-annotation-spacing": "off",
       "@typescript-eslint/typedef": "off",
-      "@typescript-eslint/unified-signatures": "error",
+      "@typescript-eslint/unified-signatures": [
+        "warn",
+        { ignoreDifferentlyNamedParameters: true },
+      ],
       "@typescript-eslint/brace-style": "off",
       "@typescript-eslint/comma-dangle": "off",
       "@typescript-eslint/comma-spacing": "off",

@@ -277,7 +277,10 @@ declare const _default: (
         "@typescript-eslint/switch-exhaustiveness-check": string;
         "@typescript-eslint/type-annotation-spacing": string;
         "@typescript-eslint/typedef": string;
-        "@typescript-eslint/unified-signatures": string;
+        "@typescript-eslint/unified-signatures": [
+          string,
+          { ignoreDifferentlyNamedParameters: boolean },
+        ];
         "@typescript-eslint/brace-style": string;
         "@typescript-eslint/comma-dangle": string;
         "@typescript-eslint/comma-spacing": string;
