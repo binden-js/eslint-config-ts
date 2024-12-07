@@ -28,7 +28,7 @@ export default [
       "@typescript-eslint/explicit-module-boundary-types": "error",
       "@typescript-eslint/member-delimiter-style": "off",
       "@typescript-eslint/member-ordering": "off",
-      "@typescript-eslint/method-signature-style": ["error", "property"],
+      "@typescript-eslint/method-signature-style": ["error", "method"],
       "@typescript-eslint/naming-convention": "off",
       "@typescript-eslint/no-base-to-string": "error",
       "@typescript-eslint/no-confusing-void-expression": "error",
