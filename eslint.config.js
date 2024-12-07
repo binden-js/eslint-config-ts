@@ -34,6 +34,10 @@ export default [
       "@typescript-eslint/no-confusing-void-expression": "error",
       "@typescript-eslint/no-duplicate-enum-values": "error",
       "@typescript-eslint/no-dynamic-delete": "error",
+      "@typescript-eslint/no-empty-object-type": [
+        "error",
+        { allowInterfaces: "with-single-extends" },
+      ],
       "@typescript-eslint/no-extraneous-class": "error",
       "@typescript-eslint/no-invalid-void-type": "error",
       "@typescript-eslint/no-meaningless-void-operator": "error",
