@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-binden-ts",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Shareable TypeScript ESLint config",
   "main": "eslint.config.js",
   "type": "module",

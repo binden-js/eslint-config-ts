@@ -1,5 +1,11 @@
 # Changelog
 
+## [5.0.2](https://github.com/binden-js/eslint-config-ts/compare/v5.0.1...v5.0.2) (2025-04-27)
+
+### Dependencies
+
+- bump eslint-config-binden-js from 5.0.0 to 5.0.1 ([46f0038](https://github.com/binden-js/eslint-config-ts/commit/46f0038b92dd6aef9291675601846d4ad01df11a))
+
 ## [5.0.1](https://github.com/binden-js/eslint-config-ts/compare/v5.0.0...v5.0.1) (2025-02-24)
 
 ### Dependencies
