@@ -1,5 +1,22 @@
 # Changelog
 
+## <small>5.0.3 (2026-04-13)</small>
+
+- Merge pull request #161 from binden-js/dependabot/npm_and_yarn/lint-staged-16.1.2 ([cd29410](https://github.com/binden-js/eslint-config-ts/commit/cd29410)), closes [#161](https://github.com/binden-js/eslint-config-ts/issues/161)
+- Merge pull request #166 from binden-js/dependabot/npm_and_yarn/binden/semantic-release-config-3.0.2 ([3ed6927](https://github.com/binden-js/eslint-config-ts/commit/3ed6927)), closes [#166](https://github.com/binden-js/eslint-config-ts/issues/166)
+- Merge pull request #191 from binden-js/dependabot/github_actions/actions/setup-node-6 ([ed8dfa4](https://github.com/binden-js/eslint-config-ts/commit/ed8dfa4)), closes [#191](https://github.com/binden-js/eslint-config-ts/issues/191)
+- Merge pull request #198 from binden-js/dependabot/npm_and_yarn/lint-staged-16.2.7 ([8bc98f5](https://github.com/binden-js/eslint-config-ts/commit/8bc98f5)), closes [#198](https://github.com/binden-js/eslint-config-ts/issues/198)
+- Merge pull request #199 from binden-js/dependabot/github_actions/actions/checkout-6 ([92da4bd](https://github.com/binden-js/eslint-config-ts/commit/92da4bd)), closes [#199](https://github.com/binden-js/eslint-config-ts/issues/199)
+- Merge pull request #213 from binden-js/dependabot/npm_and_yarn/prettier-3.8.1 ([a54727d](https://github.com/binden-js/eslint-config-ts/commit/a54727d)), closes [#213](https://github.com/binden-js/eslint-config-ts/issues/213)
+- Merge pull request #214 from binden-js/dependabot/npm_and_yarn/typescript-eslint-8.54.0 ([aa27a72](https://github.com/binden-js/eslint-config-ts/commit/aa27a72)), closes [#214](https://github.com/binden-js/eslint-config-ts/issues/214)
+- dependencies: bump typescript-eslint from 8.24.1 to 8.54.0 ([4810197](https://github.com/binden-js/eslint-config-ts/commit/4810197))
+- devDependencies: bump @binden/semantic-release-config ([c9c954e](https://github.com/binden-js/eslint-config-ts/commit/c9c954e))
+- devDependencies: bump lint-staged from 15.5.1 to 16.1.2 ([bbeeba3](https://github.com/binden-js/eslint-config-ts/commit/bbeeba3))
+- devDependencies: bump lint-staged from 16.1.2 to 16.2.7 ([a46c461](https://github.com/binden-js/eslint-config-ts/commit/a46c461))
+- devDependencies: bump prettier from 3.5.3 to 3.8.1 ([87a90ca](https://github.com/binden-js/eslint-config-ts/commit/87a90ca))
+- ci: bump actions/checkout from 4 to 6 ([1065800](https://github.com/binden-js/eslint-config-ts/commit/1065800))
+- ci: bump actions/setup-node from 4 to 6 ([acbb4d1](https://github.com/binden-js/eslint-config-ts/commit/acbb4d1))
+
 ## [5.0.2](https://github.com/binden-js/eslint-config-ts/compare/v5.0.1...v5.0.2) (2025-04-27)
 
 ### Dependencies
