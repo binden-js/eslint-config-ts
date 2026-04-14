@@ -1,5 +1,25 @@
 # Changelog
 
+## [6.0.0](https://github.com/binden-js/eslint-config-ts/compare/v5.0.3...v6.0.0) (2026-04-14)
+
+### ⚠ BREAKING CHANGES
+
+- rename package to `@binden/eslint-config-ts`
+- drop `Node.js` <24 support
+- use @binden/eslint-config
+
+### Performance Improvements
+
+- drop `Node.js` <24 support ([aac2c16](https://github.com/binden-js/eslint-config-ts/commit/aac2c16df811787692e4e0fd6d1a46eb05fec111))
+
+### Dependencies
+
+- use @binden/eslint-config ([0b6fde9](https://github.com/binden-js/eslint-config-ts/commit/0b6fde9db9ae66575eda0af9c32483e5d1b9e02d))
+
+### Miscellaneous Chores
+
+- rename package to `@binden/eslint-config-ts` ([ead82a9](https://github.com/binden-js/eslint-config-ts/commit/ead82a928b636ef437a089700648c3c9a2fb2faa))
+
 ## <small>5.0.3 (2026-04-13)</small>
 
 - Merge pull request #161 from binden-js/dependabot/npm_and_yarn/lint-staged-16.1.2 ([cd29410](https://github.com/binden-js/eslint-config-ts/commit/cd29410)), closes [#161](https://github.com/binden-js/eslint-config-ts/issues/161)
