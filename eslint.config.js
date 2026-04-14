@@ -1,4 +1,4 @@
-import binden from "eslint-config-binden-js";
+import binden from "@binden/eslint-config";
 import tseslint from "typescript-eslint";
 
 export default [

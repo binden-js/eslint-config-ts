@@ -29,8 +29,8 @@ jobs:
       - name: commitlint
         run: npm run commitlint
 
-      - name: Publish
-        run: npm publish --dry-run
+      - name: Pack
+        run: npm pack --dry-run
 
       - name: ESLint
         run: npm run eslint

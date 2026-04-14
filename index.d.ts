@@ -1,4 +1,4 @@
-/* eslint-disable-next-line no-underscore-dangle, init-declarations */
+/* eslint-disable-next-line no-underscore-dangle */
 declare const _default: (
   | { readonly rules: Readonly<import("eslint").Linter.RulesRecord> }
   | {
