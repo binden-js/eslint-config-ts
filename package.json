@@ -43,7 +43,7 @@
     "@binden/semantic-release-config": "^3.0.4",
     "@binden/tsconfig": "^4.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
+    "lint-staged": "^17.0.2",
     "prettier": "^3.8.3"
   },
   "publishConfig": {
